@@ -1,0 +1,58 @@
+      /* Responsive For Mobile */
+
+      @media screen and (max-width: 600px) {
+          .items-container {
+              display: none
+          }
+
+          .hamburger {
+              display: block;
+          }
+
+          .hamburger div {
+              height: 2px;
+          }
+
+          .nav-title-1 {
+              font-size: 20px;
+          }
+
+          .title-container img {
+              width: 28px;
+              height: 33px;
+          }
+
+          #explore_travel_banner {
+              width: 335px;
+          }
+
+
+          .explore_title-1 {
+              font-size: 22px;
+              padding-top: 50px;
+          }
+
+          .explore_description {
+              font-size: 14px;
+              width: 282px;
+          }
+
+
+          .explore-container {
+              display: flex;
+              width: 287px;
+              padding: 16px;
+              align-items: center;
+              flex-direction: column;
+              gap: 16px;
+              margin-top: 10px;
+          }
+
+          .explore-items{
+            width: 255px;
+          }
+
+          .explore-items-search{
+            width: 255px;
+          }
+      }
