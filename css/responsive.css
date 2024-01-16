@@ -55,4 +55,107 @@
           .explore-items-search{
             width: 255px;
           }
+
+          .column-two{
+            grid-template-columns: 1fr;
+            grid-gap: 30px;
+        }
+
+        .popular-description{
+            width: 316px;
+          }
+        .popular-img img{
+            width: 310px;
+            height: 335px;
+        
+        }
+
+        .popular_title-1{
+            font-size: 16px;
+        }
+
+        .destination{
+            grid-template-columns: 1fr;
+        }
+
+        .destination-title{
+            font-size: 20px;
+        }
+
+        .destination img{
+            width: 330px;
+            height: 176px;
+        }
+
+        .destination-description{
+            width: 300px;
+        }
+
+        .centered-1{
+            top: 24%;
+            left: 55%;
+        }
+
+        .centered-2{
+            top: 73%;
+            left: 55%;
+        }
+
+        .centered-3{
+            top: 17%;
+            left: 55%;
+        }
+
+        .centered-4{
+            top: 50%;
+            left: 55%;
+        }
+
+        .centered-5{
+            top: 84%;
+            left: 55%;
+        }
+
+        .centered-6{
+            top: 20%;
+            left: 55%;
+        }
+        .centered-7{
+            top: 74%;
+            left: 55%;
+        }
+
+        .choose_container{
+            flex-direction: column;
+        }
+
+        .choose-title{
+            color: #131318;
+            text-align: center;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        .choose_title-1{
+            font-size: 20px;
+        }
+
+        .choose-description{
+            width: 100%;
+        }
+
+        .choose_bg-1{
+            width: 100%;
+        }
+
+        .choose_bg-2{
+            width: 100%;
+        }
+
+        .choose_bg-3{
+            width: 100%;
+        }
+
       }
