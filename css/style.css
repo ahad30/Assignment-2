@@ -500,6 +500,126 @@ body {
   /* <!-- travel blog end --> */
 
 
+/* deals section start */
+
+
+#deals_section{
+    width: 82%;
+    margin: 20px auto;
+}
+
+
+.deals_section_title{
+color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+.deals_section_description{
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.deals-details{
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+padding: 30px;
+float: right;
+
+}
+
+.deals-details-1{
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+padding: 30px;
+}
+
+
+.deals-content-1{
+    display: flex;
+    gap: 20px;
+}
+.deals-flex img{
+    margin-inline-end: 5px;
+}
+
+.deals-flex div:nth-child(2){
+color: #5A5A5D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.deals-flex{
+    display: flex;
+}
+
+.deals-1{
+    background-image:  url('../images/deals-2.png');
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: 100% 100%;
+    border-radius: 16px;
+    margin: 40px 0px;
+    padding: 50px;
+}
+
+.deals-2{
+    background-image:  url('../images/deals-3.png');
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: 100% 100%;
+    border-radius: 16px;
+    margin: 40px 0px;
+    padding: 50px;
+}
+
+.deals-title{
+color: #131318;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 30px 0px;
+}
+
+.deals-description{
+color: #5A5A5D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.deals_price{
+color: #FF5400;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 30px 0px;
+}
+
+/* deals section end */
+
+
 /* <!-- Newsletter Section Start--> */
 
 #newsletter_section {
@@ -510,10 +630,19 @@ body {
 }
 
 
+.hr_line_newsletter{
+    width: 393px;
+    height: 1px;
+    border-width: 0px;
+    color: rgba(19, 19, 24, 0.10);
+    background: rgba(19, 19, 24, 0.10);
+    margin: 20px 0px;
+}
+
 .input_section {
     border-radius: 16px;
     border: 1px solid #FF5400;
-    padding: 20px;
+    padding: 36px;
     width: 474px;
     height: 422px;
 }
@@ -538,7 +667,7 @@ input {
 
 input[type="submit"] {
     border-radius: 6px;
-    background: #F00;
+    background: #FF5400;
     width: 393px;
     height: 45px;
     color: #FFF;
@@ -549,6 +678,11 @@ input[type="submit"] {
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+
+.image_section-1 img{
+    width: 611px;
+    height: 423px;
 }
 
 .image_section-1 {
@@ -568,6 +702,27 @@ input[type="submit"] {
 }
 
 /* <!-- Newsletter Section End--> */
+
+
+#video_section{
+        width: 82%;
+        margin: 50px auto;
+    
+}
+
+video{
+
+    width: 528px;
+    height: 429px;
+}
+
+.video-description{
+color: #131318;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+}
 
 
 /* Footer start */
@@ -605,6 +760,10 @@ footer {
 footer .title-container {
     margin-bottom: 15px;
     justify-content: center;
+}
+
+.footer_last{
+    font-family: 'Inter' , sans-serif;
 }
 
 /* Footer end */

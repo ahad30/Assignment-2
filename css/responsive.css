@@ -1,231 +1,265 @@
-      /* Responsive For Mobile */
+    /* Responsive For Mobile */
 
-      @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
 
-     
-          .items-container {
-              display: none
-          }
 
-          .hamburger {
-              display: block;
-          }
+        .items-container {
+            display: none
+        }
 
-          .hamburger div {
-              height: 2px;
-          }
+        .hamburger {
+            display: block;
+        }
 
-          .nav-title-1 {
-              font-size: 20px;
-          }
+        .hamburger div {
+            height: 2px;
+        }
 
-          .title-container img {
-              width: 28px;
-              height: 33px;
-          }
+        .nav-title-1 {
+            font-size: 20px;
+        }
 
-          #explore_travel_banner {
-              width: 335px;
-          }
+        .title-container img {
+            width: 28px;
+            height: 33px;
+        }
 
-          body{
+        #explore_travel_banner {
+            width: 335px;
+        }
+
+        /* body{
             overflow-x: hidden;
+        } */
+
+
+        .explore_title-1 {
+            font-size: 22px;
+            padding-top: 50px;
+        }
+
+        .explore_description {
+            font-size: 14px;
+            width: 282px;
         }
 
 
-          .explore_title-1 {
-              font-size: 22px;
-              padding-top: 50px;
-          }
+        .explore-container {
+            display: flex;
+            width: 287px;
+            padding: 16px;
+            align-items: center;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 10px;
+        }
 
-          .explore_description {
-              font-size: 14px;
-              width: 282px;
-          }
+        .explore-items {
+            width: 255px;
+        }
 
+        .explore-items-search {
+            width: 255px;
+        }
 
-          .explore-container {
-              display: flex;
-              width: 287px;
-              padding: 16px;
-              align-items: center;
-              flex-direction: column;
-              gap: 16px;
-              margin-top: 10px;
-          }
-
-          .explore-items {
-              width: 255px;
-          }
-
-          .explore-items-search {
-              width: 255px;
-          }
-
-          .column-two {
-              grid-template-columns: 1fr;
-              grid-gap: 30px;
-          }
-
-          .popular-description {
-              width: 316px;
-          }
-
-          .popular-img img {
-              width: 310px;
-              height: 335px;
-
-          }
-
-          .popular_title-1 {
-              font-size: 16px;
-          }
-
-          .destination {
-              grid-template-columns: 1fr;
-          }
-
-          .destination-title {
-              font-size: 20px;
-          }
-
-          .destination img {
-              width: 330px;
-              height: 176px;
-          }
-
-          .destination-description {
-              width: 300px;
-          }
-
-          .centered-1 {
-              top: 24%;
-              left: 55%;
-          }
-
-          .centered-2 {
-              top: 73%;
-              left: 55%;
-          }
-
-          .centered-3 {
-              top: 17%;
-              left: 55%;
-          }
-
-          .centered-4 {
-              top: 50%;
-              left: 55%;
-          }
-
-          .centered-5 {
-              top: 84%;
-              left: 55%;
-          }
-
-          .centered-6 {
-              top: 20%;
-              left: 55%;
-          }
-
-          .centered-7 {
-              top: 74%;
-              left: 55%;
-          }
-
-          .choose_container {
-              flex-direction: column;
-          }
-
-          .choose-title {
-              color: #131318;
-              text-align: center;
-              font-size: 30px;
-              font-style: normal;
-              font-weight: 800;
-              line-height: normal;
-          }
-
-          .choose_title-1 {
-              font-size: 20px;
-          }
-
-          .choose-description {
-              width: 100%;
-          }
-
-          .choose_bg-1 {
-              width: 100%;
-          }
-
-          .choose_bg-2 {
-              width: 100%;
-          }
-
-          .choose_bg-3 {
-              width: 100%;
-          }
-
-          .card-container {
+        .column-two {
             grid-template-columns: 1fr;
-          }
+            grid-gap: 30px;
+        }
 
+        .popular-description {
+            width: 316px;
+        }
 
-          #newsletter_section {
-              flex-direction: column;
-          }
+        .popular-img img {
+            width: 310px;
+            height: 335px;
 
-          .input_section {
-              width: 100%;
-          }
+        }
 
-          input {
+        .popular_title-1 {
+            font-size: 16px;
+        }
+
+        .destination {
+            grid-template-columns: 1fr;
+        }
+
+        .destination-title {
+            font-size: 20px;
+        }
+
+        .destination img {
+            width: 330px;
+            height: 176px;
+        }
+
+        .destination-description {
+            width: 300px;
+        }
+
+        .centered-1 {
+            top: 24%;
+            left: 55%;
+        }
+
+        .centered-2 {
+            top: 73%;
+            left: 55%;
+        }
+
+        .centered-3 {
+            top: 17%;
+            left: 55%;
+        }
+
+        .centered-4 {
+            top: 50%;
+            left: 55%;
+        }
+
+        .centered-5 {
+            top: 84%;
+            left: 55%;
+        }
+
+        .centered-6 {
+            top: 20%;
+            left: 55%;
+        }
+
+        .centered-7 {
+            top: 74%;
+            left: 55%;
+        }
+
+        .choose_container {
+            flex-direction: column;
+        }
+
+        .choose-title {
+            color: #131318;
+            text-align: center;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        .choose_title-1 {
+            font-size: 20px;
+        }
+
+        .choose-description {
             width: 100%;
-          }
+        }
 
-          input[type="submit"] {
+        .choose_bg-1 {
             width: 100%;
-          }
+        }
 
-          .image_section-1 img{
+        .choose_bg-2 {
             width: 100%;
-          }
+        }
 
-          .input_section p{
+        .choose_bg-3 {
             width: 100%;
-          }
+        }
+
+        .card-container {
+            grid-template-columns: 1fr;
+        }
+
+        .deals-1{
+            width: 314px;
+            height: 729px;
+        }
+
+        .deals-2 {
+            width: 314px;
+            height: 729px;
+        }
+
+        .deals-details {
+            width: 223px;
+            height: 665px;
+            float: none;
+        }
+
+        .deals-details-1 {
+            width: 223px;
+            height: 665px;
+        }
+
+        .deals-content-1 {
+            flex-direction: column;
+
+        }
+
+        #newsletter_section {
+            flex-direction: column;
+        }
+
+        .input_section {
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+        }
+
+        .image_section-1 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .input_section p {
+            width: 100%;
+        }
 
 
-          .image_section-1::before {
+        .hr_line_newsletter {
+            width: 100%;
+        }
+
+        .image_section-1::before {
             background-image: url(../images/discount.png);
             position: absolute;
             content: '';
-            right: -50px;
-            top: 58px;
+            right: -54px;
+            top: 60px;
             height: 200px;
             width: 200px;
             background-repeat: no-repeat;
             background-size: 73% 62%;
-          }
-          
-          footer {
-              width: 100%;
-              height: 100%;
-          }
+        }
 
-          .footer_description {
-              width: 100%;
-              margin: 24px auto;
-          }
+        video {
+            width: 100%;
+            height: 100%;
+        }
 
-          .hr_line {
-              width: 100%;
-              margin: 50px auto;
+        footer {
+            width: 100%;
+            height: 100%;
+        }
 
-          }
+        .footer_description {
+            width: 100%;
+            margin: 24px auto;
+        }
 
-          footer .nav-title-1 {
+        .hr_line {
+            width: 100%;
+            margin: 50px auto;
+        }
 
-              font-size: 19px;
-          }
-      }
+        footer .nav-title-1 {
+
+            font-size: 19px;
+        }
+    }
